@@ -57,7 +57,7 @@ export function Dashboard(props: DashboardProps) {
         </h2>
       </section>
 
-      <section className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <section className="grid sm:grid-cols-1 md:grid-cols-3 gap-6">
         <ProgressRing
           value={nutrition.calories}
           max={nutrition.dailyGoal}
