@@ -95,7 +95,7 @@ export function Dashboard(props: DashboardProps) {
           <p className="text-[10px] font-light tracking-[0.05em] uppercase text-neutral-500 mb-1">Acciones rápidas</p>
           <h3 className="text-2xl font-bold tracking-tight">Sigue tu progreso</h3>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-4">
           <button
             onClick={() => props.onNavigate?.('/nutrition')}
             className="flex items-center justify-between p-6 bg-surface-container-lowest rounded-full group hover:shadow-lg transition-all active:scale-95 w-full"
@@ -141,7 +141,7 @@ export function Dashboard(props: DashboardProps) {
         </div>
       </section>
 
-      <section className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <section className="grid sm:grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="bg-surface-container-lowest rounded-[2rem] p-8 border border-outline-variant/15">
           <div className="flex items-center justify-between mb-6">
             <h4 className="font-bold text-xl">Balance de Nutrientes</h4>
